@@ -1,0 +1,31 @@
+REM *******************************************************************************
+REM Company:  Adiuvo Engineering & Training Ltd
+REM
+REM Function: This file controls the running of the BluePearlCLI scripts, it loads
+REM           the tool settings and the project creation scripts
+REM
+REM Useage:   Double clicking on the file will execute this 
+REM
+REM Author:   Adam Taylor Adam@AdiuvoEngineering.com
+REM
+REM Created:  Saturday 11 July 20202
+REM
+REM Copyright (C) 2020 Adiuvo Engineering & Training Ltd
+REM
+REM THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+REM ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+REM WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+REM DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR
+REM ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+REM (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+REM LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
+REM ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+REM (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+REM SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+REM ******************************************************************************* 
+
+cls
+
+BluePearlCLI -output Results -tcl esa_analysis.tcl
+
+pause
